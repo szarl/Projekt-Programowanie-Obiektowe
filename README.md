@@ -1,1 +1,1 @@
-# Projekt-Programowanie-Obiektowe
+# Początki bywają trunde
