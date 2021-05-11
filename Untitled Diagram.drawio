@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-11T08:24:18.749Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36 OPR/76.0.4017.107" etag="iHwCRvB1KkLHKuCXyroj" version="14.6.11" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-11T08:27:55.148Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36 OPR/76.0.4017.107" etag="m8YuOqXhGdL_oQbDP8vl" version="14.6.11" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2076" dy="1096" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -185,6 +185,11 @@
         </mxCell>
         <mxCell id="J6dVix8OJKgPxIhEk7ro-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.6;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;endArrow=diamond;endFill=1;strokeWidth=1;endSize=25;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cgzWAueaa51aZo-VVd-2-4" target="gLJ9DEFuk4f7HOxg7gJl-45">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J6dVix8OJKgPxIhEk7ro-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;startArrow=none;startFill=0;endArrow=diamondThin;endFill=0;startSize=20;endSize=20;strokeWidth=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cgzWAueaa51aZo-VVd-2-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1200" y="300" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="cgzWAueaa51aZo-VVd-2-4" value="Katalog ćwiczeń i posiłków" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="900" y="460" width="400" height="216" as="geometry">
