@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-11T08:12:48.813Z" agent="5.0 (Windows)" etag="5wOZWlMInetQNHNxN4lH" version="14.6.11" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-11T08:14:01.141Z" agent="5.0 (Windows)" etag="E9SjUw83y0BgD3ZhSEfn" version="14.6.11" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -21,13 +21,13 @@
         <mxCell id="gLJ9DEFuk4f7HOxg7gJl-40" value="+&amp;nbsp; &amp;nbsp;Zaloguj(Login, Haslo)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="zkfFHV4jXpPFQw0GAbJ--6" vertex="1">
           <mxGeometry y="86" width="330" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="gLJ9DEFuk4f7HOxg7gJl-43" value="+&amp;nbsp; &amp;nbsp;edytuj()" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="zkfFHV4jXpPFQw0GAbJ--6" vertex="1">
+        <mxCell id="gLJ9DEFuk4f7HOxg7gJl-43" value="+&amp;nbsp; &amp;nbsp;edytuj() : void" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="zkfFHV4jXpPFQw0GAbJ--6" vertex="1">
           <mxGeometry y="106" width="330" height="20" as="geometry" />
         </mxCell>
         <mxCell id="gLJ9DEFuk4f7HOxg7gJl-44" value="+&amp;nbsp; &amp;nbsp;dodajj()" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="zkfFHV4jXpPFQw0GAbJ--6" vertex="1">
           <mxGeometry y="126" width="330" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="gLJ9DEFuk4f7HOxg7gJl-45" value="-&amp;nbsp; &amp;nbsp;wyloguj()" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="zkfFHV4jXpPFQw0GAbJ--6" vertex="1">
+        <mxCell id="gLJ9DEFuk4f7HOxg7gJl-45" value="-&amp;nbsp; &amp;nbsp;wyloguj() : void" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="zkfFHV4jXpPFQw0GAbJ--6" vertex="1">
           <mxGeometry y="146" width="330" height="20" as="geometry" />
         </mxCell>
         <mxCell id="cgzWAueaa51aZo-VVd-2-10" value="-&amp;nbsp;&amp;nbsp; UsunKlienta(Klient) : bool" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--6">
