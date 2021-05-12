@@ -21,3 +21,4 @@ class FizzBuzzProcessor {
         return String.valueOf(fizzBuzz);
     }
 }
+
