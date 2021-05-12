@@ -1,6 +1,5 @@
 plugins {
     id 'application'
-    id "publishing"
 }
 
 
@@ -22,7 +21,7 @@ test {
 
 jar {
     manifest {
-        attributes "Main-Class": "Jcode.FizzBuzzProcessor"
+        attributes "Main-Class": "Jcode.main"
     }
 
     from {
@@ -30,19 +29,5 @@ jar {
     }
 }
 application{
-    mainClassName = 'Jcode.FizzBuzzProcessor'
-}
-publishing {
-    publications {
-    }
-    repositories {
-        maven {
-            name = "MyRepo" //  optional target repository name
-            url = "http://my.org.server/repo/url"
-            credentials {
-                username = 'alice'
-                password = 'my-password'
-            }
-        }
-    }
+    mainClassName = 'Jcode.main'
 }
