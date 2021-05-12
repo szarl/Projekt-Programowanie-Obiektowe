@@ -1,5 +1,7 @@
 package Jcode;
 
+import java.util.Scanner;
+
 public interface guest {
     public void rejestruj();
     public void zaloguj();
@@ -11,6 +13,17 @@ class first_step implements guest{
         System.out.println("Wybierz jeddna z dwoch opcji:");
         System.out.println("1. Zaloguj:");
         System.out.println("2. Rejestracja");
+        Scanner x = new Scanner(System.in);
+        switch(x.nextShort()) {
+            case 1:
+
+                break;
+            case 2:
+
+                break;
+
+            default:
+        }
 
     }
 

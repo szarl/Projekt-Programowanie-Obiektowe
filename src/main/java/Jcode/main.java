@@ -5,6 +5,7 @@ class main {
         log user= new log();
         user.wprowadzLogin();
         user.wprowadzHaslo();
+        user.sprawdzStatus();
     }
 
 }

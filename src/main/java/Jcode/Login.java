@@ -10,18 +10,25 @@ interface Login {
 }
 
 class log implements Login{
+    private String login;
+    private String haslo;
+
     public void wprowadzLogin() {
         System.out.println("Wprowadz login: ");
-        Scanner login = new Scanner(System.in);
+        Scanner scaner = new Scanner(System.in);
+        login = scaner.nextLine();
     }
 
     public void wprowadzHaslo() {
         System.out.println("Wprowadz haslo: ");
-        Scanner haslo = new Scanner(System.in);
+        Scanner scaner = new Scanner(System.in);
+        haslo = scaner.nextLine();
     }
 
     public void sprawdzStatus() {
         System.out.println("Sprawdzono ");
+        System.out.println(login);
+        System.out.println(haslo);
     }
 }
 
