@@ -1,6 +1,6 @@
 package Jcode;
 
-import org.json.JSONObject;
+// import org.json.JSONObject;
 
 public class JasonDataStorage {
     public static void JsonDataStorage() {
