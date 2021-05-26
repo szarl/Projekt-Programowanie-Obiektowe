@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-26T17:12:57.473Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36 OPR/76.0.4017.123" etag="nJ5DROIyFIAXtkVY0-Yp" version="14.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-26T17:17:26.862Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36 OPR/76.0.4017.123" etag="_Sv7PH6ZAZWs3TG0qcnV" version="14.7.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1221" dy="645" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -140,17 +140,17 @@
             <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cgzWAueaa51aZo-VVd-2-5" value="&lt;font style=&quot;font-size: 15px&quot;&gt;-PartiaKatalog: string&lt;br&gt;&lt;/font&gt;&lt;div style=&quot;font-size: 15px&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;-PoraDniaKatalog: string&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;- Datafile: SaveData&lt;/font&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=14;" parent="cgzWAueaa51aZo-VVd-2-4" vertex="1">
-          <mxGeometry y="30" width="500" height="70" as="geometry" />
+        <mxCell id="cgzWAueaa51aZo-VVd-2-5" value="&lt;font style=&quot;font-size: 15px&quot;&gt;-PartiaKatalog: string&lt;br&gt;&lt;/font&gt;&lt;div style=&quot;font-size: 15px&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;-PoraDniaKatalog: string&lt;/font&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=14;" parent="cgzWAueaa51aZo-VVd-2-4" vertex="1">
+          <mxGeometry y="30" width="500" height="50" as="geometry" />
         </mxCell>
         <mxCell id="cgzWAueaa51aZo-VVd-2-6" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontSize=14;" parent="cgzWAueaa51aZo-VVd-2-4" vertex="1">
-          <mxGeometry y="100" width="500" height="10" as="geometry" />
+          <mxGeometry y="80" width="500" height="10" as="geometry" />
         </mxCell>
         <mxCell id="cgzWAueaa51aZo-VVd-2-7" value="+DodajPartia(string, przedmiotKonkretneCwiczenie): void&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=15;" parent="cgzWAueaa51aZo-VVd-2-4" vertex="1">
-          <mxGeometry y="110" width="500" height="30" as="geometry" />
+          <mxGeometry y="90" width="500" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cgzWAueaa51aZo-VVd-2-8" value="+DodajPoraDnia(string, przedmiotKonkretnyPrzepis): void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=15;" parent="cgzWAueaa51aZo-VVd-2-4" vertex="1">
-          <mxGeometry y="140" width="500" height="30" as="geometry" />
+          <mxGeometry y="120" width="500" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QKfsy8HlTmfOnDMp4Jn6-31" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.469;entryY=1.018;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fontSize=15;startArrow=open;startFill=0;endArrow=none;endFill=0;strokeWidth=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="J6dVix8OJKgPxIhEk7ro-4" target="tMIdlEM_C26eKID_X2OK-19">
           <mxGeometry relative="1" as="geometry" />
