@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 interface Login{
     public void wprowadzLogin();
-    public void wprowadzHaslo();
+    public void wprowadzHaslo123();
     public void sprawdzStatus();
     public void rejestruj();
     public void zapisz_dane(String name, String pasname);
