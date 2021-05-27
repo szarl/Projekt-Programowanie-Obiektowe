@@ -9,7 +9,6 @@ interface Login{
     public void sprawdzStatus();
     public void rejestruj();
     public void zapisz_dane(String name, String pasname);
-    public void aasdfg();
 }
 
 class log implements Login{
