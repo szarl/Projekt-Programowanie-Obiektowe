@@ -1,7 +1,7 @@
 package Jcode;
 
 public class Klient {
-    private int numerTelefonu;
+    private long numerTelefonu;
     private boolean plec;
     private float wzrost;
     private float waga;
@@ -17,7 +17,7 @@ public class Klient {
         return 0;
     }
 
-    protected int ObliczZapotrzebowanie(float, float, int, boolean, float) {
+    protected int ObliczZapotrzebowanie(float wzrost , float waga, int wiek, boolean plec, float wagaDocelowa) {
 
         return 0;
     }

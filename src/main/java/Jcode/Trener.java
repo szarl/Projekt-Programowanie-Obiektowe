@@ -10,7 +10,7 @@ public class Trener {
 
     }
 
-    private void ModyfikujCwizenie(){
+    private void ModyfikujCwiczenie(){
 
 
     }
