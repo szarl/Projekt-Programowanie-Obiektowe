@@ -5,17 +5,17 @@ public class Osoba {
     protected String haslo;
     protected String nazwisko;
 
-    protected void edytuj(){
+    protected static void edytuj(){
 
 
     }
 
-    protected void przegladaj(){
+    protected static void przegladaj(){
 
 
     }
 
-    protected void wyloguj{
+    protected static void wyloguj{
 
 
     }
