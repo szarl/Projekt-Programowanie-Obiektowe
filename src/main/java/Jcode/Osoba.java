@@ -1,9 +1,9 @@
 package Jcode;
 
 public class Osoba {
-    protected String imie;
-    protected String haslo;
-    protected String nazwisko;
+    protected String imie= new String();
+    protected String haslo= new String();
+    protected String nazwisko= new String();
 
     protected static void edytuj(){
 

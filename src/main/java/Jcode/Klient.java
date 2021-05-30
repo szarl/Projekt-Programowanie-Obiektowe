@@ -9,8 +9,8 @@ public class Klient {
     private int zapotrzebowanie;
     private int wiek;
     private String adresEmail= new String();
-    private String dataZapisu;
-    private String dataKoncowa;
+    private String dataZapisu= new String();
+    private String dataKoncowa= new String();
 
     private float ObliczBmi(float wzrost, float waga, int wiek, boolean plec) {
 
