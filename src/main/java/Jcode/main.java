@@ -13,5 +13,6 @@ class Main {
     }
     private static boolean usun_uzytkownika(int a){
 
+        return false;
     }
 }
