@@ -1,8 +1,8 @@
 package Jcode;
 
 public class Rejestracja {
-    protected String haslo;
-    protected int id;
+    protected String haslo = new String();
+    protected long id;
 
     protected int stworz_ID(){
 
@@ -14,7 +14,7 @@ public class Rejestracja {
         return null;
     }
 
-    private Rejestracja utworz_konto(String id, String haslo) {
+    private Rejestracja utworz_konto( String id, String haslo) {
 
         return null;
     }
