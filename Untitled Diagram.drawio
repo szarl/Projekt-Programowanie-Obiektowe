@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-05-30T16:53:19.983Z" agent="5.0 (Windows)" etag="SvGISupXinbEOtpkX5wZ" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-30T16:58:33.097Z" agent="5.0 (Windows)" etag="vM7PjSePPtvvD2rq-E-p" version="14.6.13" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="778" dy="891" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="1922" dy="898" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -69,7 +69,7 @@
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1wjIpLgKYZf0kbllM20t-19" value="-&amp;nbsp;&amp;nbsp; numerTelefonu: int" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=15;" parent="gLJ9DEFuk4f7HOxg7gJl-0" vertex="1">
+        <mxCell id="1wjIpLgKYZf0kbllM20t-19" value="-&amp;nbsp;&amp;nbsp; numerTelefonu: long" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=15;" parent="gLJ9DEFuk4f7HOxg7gJl-0" vertex="1">
           <mxGeometry y="26" width="290" height="20" as="geometry" />
         </mxCell>
         <mxCell id="1wjIpLgKYZf0kbllM20t-24" value="-&amp;nbsp;&amp;nbsp; plec: bool" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=15;" parent="gLJ9DEFuk4f7HOxg7gJl-0" vertex="1">
