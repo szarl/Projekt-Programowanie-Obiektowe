@@ -8,7 +8,7 @@ public class Klient {
     private float wagaDocelowa;
     private int zapotrzebowanie;
     private int wiek;
-    private String adresEmail;
+    private String adresEmail= new String();
     private String dataZapisu;
     private String dataKoncowa;
 
