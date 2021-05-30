@@ -1,6 +1,6 @@
 package Jcode;
 
-public class Klient {
+public class Klient extends Osoba{
     private long numerTelefonu;
     private boolean plec;
     private float wzrost;

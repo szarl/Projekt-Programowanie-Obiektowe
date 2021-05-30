@@ -15,8 +15,7 @@ public class Osoba {
 
     }
 
-    protected void wyloguj{
-
+    protected void wyloguj(){
 
     }
 }
