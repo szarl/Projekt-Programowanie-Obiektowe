@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-31T18:33:27.106Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36 OPR/76.0.4017.154" etag="Np6-OPue1o9xF5_E7Gsz" version="14.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-31T18:33:35.174Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36 OPR/76.0.4017.154" etag="QQnEMAuxTZEUlTaqp4kr" version="14.7.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1422" dy="846" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -284,7 +284,7 @@
         <mxCell id="QKfsy8HlTmfOnDMp4Jn6-24" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="QKfsy8HlTmfOnDMp4Jn6-22" vertex="1">
           <mxGeometry y="72" width="290" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="tMIdlEM_C26eKID_X2OK-32" value="&lt;font style=&quot;font-size: 15px&quot;&gt;# stworz_ID: int&lt;br&gt;# wprowadzHaslo(): string&lt;br&gt;- utworz_konto(int, string): bool&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="QKfsy8HlTmfOnDMp4Jn6-22" vertex="1">
+        <mxCell id="tMIdlEM_C26eKID_X2OK-32" value="&lt;font style=&quot;font-size: 15px&quot;&gt;# stworz_ID: int&lt;br&gt;# wprowadzHaslo(): string&lt;br&gt;# utworz_konto(int, string): bool&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="QKfsy8HlTmfOnDMp4Jn6-22" vertex="1">
           <mxGeometry y="80" width="290" height="54.166666666666664" as="geometry" />
         </mxCell>
         <mxCell id="QKfsy8HlTmfOnDMp4Jn6-35" value="&lt;&lt;interface&gt;&gt;&#xa;Data" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=12;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
