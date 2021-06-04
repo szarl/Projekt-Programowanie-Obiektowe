@@ -21,7 +21,7 @@ test {
 
 jar {
     manifest {
-        attributes "Main-Class": "Jcode.main"
+        attributes "Main-Class": "Jcode.Main"
     }
 
     from {
@@ -29,7 +29,7 @@ jar {
     }
 }
 application{
-    mainClassName = 'Jcode.main'
+    mainClassName = 'Jcode.Main'
 }
 
 run{

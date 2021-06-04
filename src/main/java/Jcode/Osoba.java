@@ -1,21 +1,10 @@
 package Jcode;
 
-public class Osoba {
+public abstract class Osoba {
     protected String imie;
-    protected String haslo;
     protected String nazwisko;
 
-    protected void edytuj(){
-
-
-    }
-
-    protected void przegladaj(){
-
-
-    }
-
-    protected void wyloguj(){
-
-    }
+    protected abstract void edytuj();
+    protected abstract void przegladaj();
+    protected abstract void wyloguj();
 }

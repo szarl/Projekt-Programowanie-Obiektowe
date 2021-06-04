@@ -22,4 +22,22 @@ public class Klient extends Osoba{
         return 0;
     }
 
+    @Override
+    protected void edytuj() {
+
+    }
+
+    @Override
+    protected void przegladaj() {
+
+    }
+
+    @Override
+    protected void wyloguj() {
+
+    }
+
+    public Klient(){
+
+    }
 }
