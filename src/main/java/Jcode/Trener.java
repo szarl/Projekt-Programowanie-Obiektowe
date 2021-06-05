@@ -1,12 +1,9 @@
 package Jcode;
 
-public class Trener {
-    private Przepis przepis= new Przepis();
-    private Cwiczenie cwiczenie= new Cwiczenie();
+public class Trener extends Osoba {
     protected Katalog katalog= new Katalog();
 
     private void ModyfikujPrzepis(){
-
 
     }
 
@@ -15,4 +12,22 @@ public class Trener {
 
     }
 
+    @Override
+    protected void edytuj() {
+
+    }
+
+    @Override
+    protected void przegladaj() {
+
+    }
+
+    @Override
+    protected void wyloguj() {
+
+    }
+
+    public Trener(){
+
+    }
 }

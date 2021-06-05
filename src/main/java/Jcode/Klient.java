@@ -1,6 +1,6 @@
 package Jcode;
 
-public class Klient {
+public class Klient extends Osoba{
     private long numerTelefonu;
     private boolean plec;
     private float wzrost;
@@ -22,4 +22,22 @@ public class Klient {
         return 0;
     }
 
+    @Override
+    protected void edytuj() {
+
+    }
+
+    @Override
+    protected void przegladaj() {
+
+    }
+
+    @Override
+    protected void wyloguj() {
+
+    }
+
+    public Klient(){
+
+    }
 }

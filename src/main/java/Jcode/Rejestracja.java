@@ -1,22 +1,28 @@
 package Jcode;
 
+import java.util.Scanner;
+
 public class Rejestracja {
     protected String haslo = new String();
     protected long id;
 
-    protected int stworz_ID(){
+    private static int stworz_ID(){
+
 
         return 0;
     }
 
-    protected String wprowadz_Haslo(){
+    private static  String wprowadz_Haslo(){
 
         return null;
     }
 
-    private Rejestracja utworz_konto( String id, String haslo) {
+    private static boolean  utworz_konto(int id, Scanner haslo) {
 
-        return null;
+        return false;
+    }
+    public Rejestracja (long x, String h){
+        id = x;
     }
 
 }

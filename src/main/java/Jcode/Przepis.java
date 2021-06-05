@@ -2,12 +2,12 @@ package Jcode;
 
 import java.util.Scanner;
 
-public class Cwiczenie {
+public class Przepis {
     private String nazwa = new String();
-    private String partia = new String();
+    private String instrukcja = new String();
     private float kalorie ;
     private int czas;
-    private String opis = new String();
+    private String pora = new String();
 
     protected boolean utworz(){
 
