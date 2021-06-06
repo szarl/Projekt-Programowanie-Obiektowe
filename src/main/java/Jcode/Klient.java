@@ -13,6 +13,10 @@ public class Klient extends Osoba{
     private String dataZapisu= new String();
     private String dataKoncowa= new String();
 
+    public Klient(long id, String haslo){
+        super(id, haslo);
+    }
+
     private float ObliczBmi(float wzrost, float waga) {
         
 
@@ -49,7 +53,10 @@ public class Klient extends Osoba{
 
     }
 
-    public Klient(){
-
+    @Override
+    public String test(){
+        return this.haslo;
     }
+
+
 }

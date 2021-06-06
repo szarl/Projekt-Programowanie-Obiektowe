@@ -3,33 +3,36 @@ package Jcode;
 import java.util.Scanner;
 
 public class Rejestracja {
-    protected String haslo = new String();
-    protected long id;
+    protected String haslo = "";
+    protected long id = 0;
+    Osoba osoba = null;
 
-    private static int stworz_ID(){
+    public long stworz_ID(){
 
-            System.out.println("Wprowadz swoje id: ");
-            Scanner skanuj = new Scanner(System.in);
-            id = skanuj.nextLine();
-
-
-        return 0;
+        System.out.println("Wprowadz  id: ");
+        Scanner skan = new Scanner(System.in);
+        id = skan.nextLong();
+        return id;
     }
 
-    private static  String wprowadz_Haslo(){
-        System.out.println("Wprowadz nowe haslo: ");
+    public String wprowadz_Haslo(){
+
+        System.out.println("Wprowadz  haslo: ");
         Scanner skanuj = new Scanner(System.in);
         haslo = skanuj.nextLine();
+        return haslo;
     }
 
-    private static boolean  utworz_konto(int id, Scanner haslo) {
-        user= new User(id, haslo);
-        users.add(user);
+    private  boolean  utworz_konto(long id, String x) {
         return false;
     }
-    public Rejestracja (long x, String h){
-        id = x;
+    public Rejestracja (long id, String haslo){
+        haslo = wprowadz_Haslo();
+        id = stworz_ID();
     }
 
-
+    public Rejestracja(){
+        stworz_ID();
+        wprowadz_Haslo();
+    }
 }

@@ -27,7 +27,12 @@ public class Trener extends Osoba {
 
     }
 
-    public Trener(){
+    @Override
+    public String test(){
+        return this.haslo;
+    }
 
+    public Trener(long id, String haslo){
+        super(id, haslo);
     }
 }
