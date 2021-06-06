@@ -2,26 +2,38 @@ package Jcode;
 
 public class Klient extends Osoba{
     private long numerTelefonu;
-    private boolean plec;
-    private float wzrost;
+    private boolean plec; //mezczyzna==true
+    private float wzrost; //w metrach
     private float waga;
     private float wagaDocelowa;
     private int zapotrzebowanie;
     private int wiek;
+    private float k;    //wspolczynnik aktywnoci
     private String adresEmail= new String();
     private String dataZapisu= new String();
     private String dataKoncowa= new String();
 
-    private float ObliczBmi(float wzrost, float waga, int wiek, boolean plec) {
+    private float ObliczBmi(float wzrost, float waga) {
+        
 
-        return 0;
+        return roundTo2DecimalPlace(waga/(wzrost*wzrost));
     }
 
-    protected int ObliczZapotrzebowanie(float wzrost , float waga, int wiek, boolean plec, float wagaDocelowa) {
-
-        return 0;
+    public static float roundTo2DecimalPlace(float value) {
+        return (float) (Math.round(value * 100.0)/ 100.0);
     }
 
+    protected double ObliczZapotrzebowanie(float wzrost , float waga, int wiek, boolean plec, float k) {
+        double ppm;
+        if(plec==true){
+            ppm=66.47 + (13.7*waga)+(5 * wzrost *100)- (6.76 *wiek);
+        }else{
+            ppm=655.1 + (9.567 *waga) + (1.85* wzrost*100)-(4.68* wiek);
+        }
+
+        return (int) (ppm*k-500);
+
+    }
     @Override
     protected void edytuj() {
 
