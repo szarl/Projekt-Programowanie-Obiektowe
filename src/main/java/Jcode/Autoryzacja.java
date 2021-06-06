@@ -37,11 +37,7 @@ public class Autoryzacja {
 
         return false;
     }
-    public Autoryzacja(long id, String haslo){
-        this.id=id;
-        this.haslo=haslo;
-        wprowadzID();
-        wprowadz_haslo();
+    public Autoryzacja(){
         sprawdzStatus(wprowadzID(), wprowadz_haslo());
     }
 }

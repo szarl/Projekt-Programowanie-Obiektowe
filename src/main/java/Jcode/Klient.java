@@ -13,9 +13,12 @@ public class Klient extends Osoba{
     private String dataZapisu= new String();
     private String dataKoncowa= new String();
 
-    public Klient(long id, String haslo){
-        super(id, haslo);
+    public Klient(long id, String haslo, String imie, String nazwisko, boolean osobaceck, long numerTelefonu, String adresEmail, boolean plec, float wzrost, float waga, float wagaDocelowa, int wiek, float k, String dataZapisu, String dataKoncowa){
+
+        super(id, haslo, imie, nazwisko, osobaceck);
+
     }
+
 
     private float ObliczBmi(float wzrost, float waga) {
         
@@ -49,14 +52,9 @@ public class Klient extends Osoba{
     }
 
     @Override
-    protected void wyloguj() {
+    protected Trener wyloguj() {
 
+        return null;
     }
-
-    @Override
-    public String test(){
-        return this.haslo;
-    }
-
 
 }

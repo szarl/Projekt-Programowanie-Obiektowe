@@ -19,20 +19,21 @@ public class Trener extends Osoba {
 
     @Override
     protected void przegladaj() {
+        for(Osoba i : Main.listaOsob) {
+            System.out.println(i);
+        }
 
     }
 
     @Override
-    protected void wyloguj() {
-
+    protected Trener wyloguj() {
+        Main.main(null);
+        return null;
     }
 
-    @Override
-    public String test(){
-        return this.haslo;
+    public Trener(long id, String haslo, String imie, String nazwisko, boolean osobacheck){
+        super(id, haslo, imie, nazwisko, osobacheck);
+        wyloguj();
     }
 
-    public Trener(long id, String haslo){
-        super(id, haslo);
-    }
 }
