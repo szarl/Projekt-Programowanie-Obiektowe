@@ -170,7 +170,8 @@ class Main {
 
                 break;
             case 5:
-                Katalog.wybierzDodaj();
+                Katalog dodaj = new Katalog();
+                dodaj.wybierzDodaj();
                 break;
             case 6:
                 Trener q = new Trener(0,null,null,null,false).wyloguj();
