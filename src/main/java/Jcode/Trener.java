@@ -3,6 +3,10 @@ package Jcode;
 public class Trener extends Osoba {
     protected Katalog katalog= new Katalog();
 
+    public Trener(long a) {
+        super(a);
+    }
+
     private void ModyfikujPrzepis(){
 
     }
@@ -13,7 +17,7 @@ public class Trener extends Osoba {
     }
 
     @Override
-    protected void edytuj() {
+    public void edytuj(){
 
     }
 
@@ -22,7 +26,6 @@ public class Trener extends Osoba {
         for(Osoba i : Main.listaOsob) {
             System.out.println(i);
         }
-
     }
 
     @Override
@@ -31,9 +34,12 @@ public class Trener extends Osoba {
         return null;
     }
 
+@Override
+    public String test(){ return nazwisko;}
+
+
     public Trener(long id, String haslo, String imie, String nazwisko, boolean osobacheck){
         super(id, haslo, imie, nazwisko, osobacheck);
-        wyloguj();
     }
 
 }

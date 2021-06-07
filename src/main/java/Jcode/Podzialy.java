@@ -6,7 +6,7 @@ public abstract class Podzialy {
         this.nazwa=nazwa;
         this.opis=opis;
         this.czas=czas;
-        this.kategoriaA=kategoria;
+        this.kategoria=kategoria;
 
     }
     protected String nazwa;
@@ -15,4 +15,5 @@ public abstract class Podzialy {
     protected String opis;
 
     protected abstract void sprawdz();
+
 }

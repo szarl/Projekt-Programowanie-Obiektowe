@@ -16,7 +16,12 @@ public abstract class Osoba {
     protected long id;
     protected boolean osobacheck;
 
+    public Osoba(long id) {
+        this.id = id;
+    }
 
+
+    public abstract String test();
     protected abstract void edytuj();
     protected abstract void przegladaj();
     protected abstract Trener wyloguj();

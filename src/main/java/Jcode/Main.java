@@ -1,11 +1,14 @@
 package Jcode;
 
 import java.util.*;
+import java.util.stream.Collectors;
 
 class Main {
     public static long id;
     public static String haslo;
     public static List<Osoba> listaOsob = new ArrayList<>();
+    static Rejestracja check = new Rejestracja(id);
+    static Katalog katalog = new Katalog();
 
     public static void main(String[] args) {
 
@@ -15,12 +18,16 @@ class Main {
         while (true) {
             switch (x.nextInt()) {
                 case 1:
+                    if(listaOsob.isEmpty()) break;
+
                     Autoryzacja logowanie = new Autoryzacja();
-                    if (logowanie.sprawdzStatus(id, haslo))
+                    if (logowanie.sprawdzStatus(id, haslo)){
+                        System.out.println("Zalogowano!!!");
+                        if (true)
                     {
                         exeTrener();
                     }
-                    else if (logowanie.sprawdzStatus(id, haslo) == false)
+                    else if (false)
                     {
                         exeClient();
                     }
@@ -28,7 +35,8 @@ class Main {
                     {
                         System.out.println("Blad programu, sprobuj uruchomic ponownie");
                         System.exit(0);
-                    }
+                    }} else
+                        System.out.println("Nieudana proba logowania!");
                 break;
                 case 2:
                     dodaj();
@@ -43,11 +51,17 @@ class Main {
         }
 
     }
-    private static boolean usun_uzytkownika(int a){
-
-
-        return false;
+    private static void usun_uzytkownika(){
+        listaOsob.clear();
+        System.out.println("Pomyślnie usunieto trenera i jego podopiecznych!");
     }
+
+    private static boolean usun_uzytkownika(long a){
+        listaOsob.remove(new Trener(a));
+        System.out.println("Pomyślnie usunieto klienta");
+        return true;
+    }
+
     public static boolean dodaj() {
         while(true){
         System.out.println("1. Stworz konto dla klienta");
@@ -56,7 +70,7 @@ class Main {
         int y = x.nextInt();
         if (y == 1) {
 
-            System.out.println("Wprowadz  id: ");
+            System.out.println("Wprowadz  id (cyfry 0-9): ");
             Scanner skan = new Scanner(System.in);
             id = skan.nextLong();
 
@@ -122,10 +136,10 @@ class Main {
 
             Osoba klient = new Klient(id, haslo, imie, nazwisko, false, numerTelefonu, adresEmail, plec, wzrost, waga, wagaDocelowa, wiek, k, dataZapisu, dataKoncowa);
             listaOsob.add(klient);
+            System.out.println(listaOsob.get(0).id);
             return false;
-
         }else if(y==2){
-            System.out.println("Wprowadz  id: ");
+            System.out.println("Wprowadz  id (cyfry 0-9): ");
             Scanner skan = new Scanner(System.in);
             id = skan.nextLong();
 
@@ -141,37 +155,56 @@ class Main {
             Scanner b = new Scanner(System.in);
             String nazwisko = b.nextLine();
 
-            Osoba klient = new Trener(id, haslo, imie, nazwisko, true);
-            listaOsob.add(klient);
+            Osoba coach = new Trener(id, haslo, imie, nazwisko, true);
+            listaOsob.add(coach);
             return false;
 
         }
         else
         {
             System.out.println("Nie ma takiej opcji! Wybierz jeszcze raz. ");
-        }}
+        }
+        }
     }
     private static void exeTrener(){
-        Scanner x = new Scanner(System.in);
-        System.out.println("Wybierz co zamierzasz zrobic: \n 1.Przegladaj dane osob pod twoja opieka \n 2. \n 3. \n 4. \n 5.Dodaj cwiczenie lub potrawe \n 6. \n");
+            Scanner x = new Scanner(System.in);
+        System.out.println("Wybierz co zamierzasz zrobic: \n 1.Przegladaj dane osob pod twoja opieka \n 2. Edytuj dane klientow \n 3. Dodaj przepisy i cwiczenia  \n 4. Edytuj przepisy i cwiczenia \n 5.Usun uzytkownika \n 6. Wyloguj \n");
         switch (x.nextInt()){
             case 1:
-                for(int i=0; i<=listaOsob.size();i++) {
-                    System.out.println(listaOsob.get(i));
+                for(int i=0; i<=listaOsob.size(); i++) {
+                    System.out.println(listaOsob);
                 }
                 break;
             case 2:
+                for(Osoba klient : listaOsob) {
+                    System.out.println(klient.test());
+               }
+                System.out.println("Wybierz numer ktory chcesz edytowac: ");
 
+                // trzeba wrocic
                 break;
             case 3:
-
+                katalog.wybierzDodaj();
                 break;
             case 4:
 
                 break;
             case 5:
-                Katalog dodaj = new Katalog();
-                dodaj.wybierzDodaj();
+                System.out.println("Wybierz kogo chcesz usunac: \n 1.Trenera \n 2.Klienta");
+                switch (x.nextInt()){
+                    case 1:
+                        usun_uzytkownika();
+                        break;
+                    case 2:
+                        System.out.println("Podaj id klienta ktorego chcesz usunac: ");
+                        Scanner a = new Scanner(System.in);
+                        long id = a.nextLong();
+                        usun_uzytkownika(id);
+                        break;
+                    default:
+                        System.out.println("Nie ma takie opcji, wybierz ponownie");
+                }
+
                 break;
             case 6:
                 Trener q = new Trener(0,null,null,null,false).wyloguj();

@@ -27,11 +27,11 @@ public class Autoryzacja {
             Osoba osoba = (Osoba) it.next();
            if(osoba.id == id && osoba.haslo.equals(haslo))
            {
-               System.out.println("Zalogowano !!!");
                 return true;
            }else
            {
                System.out.println("Nieudana proba logowania !!!");
+               return false;
            }
         }
 

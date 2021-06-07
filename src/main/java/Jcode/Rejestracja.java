@@ -1,13 +1,14 @@
 package Jcode;
 
+import java.util.Iterator;
 import java.util.Scanner;
 
 public class Rejestracja {
-    protected String haslo = "";
-    protected long id = 0;
+    private String haslo = new String();
+    private long id ;
     Osoba osoba = null;
 
-    public long stworz_ID(){
+    private long stworz_ID() {
 
         System.out.println("Wprowadz  id: ");
         Scanner skan = new Scanner(System.in);
@@ -15,7 +16,7 @@ public class Rejestracja {
         return id;
     }
 
-    public String wprowadz_Haslo(){
+    private String wprowadz_Haslo() {
 
         System.out.println("Wprowadz  haslo: ");
         Scanner skanuj = new Scanner(System.in);
@@ -23,16 +24,12 @@ public class Rejestracja {
         return haslo;
     }
 
-    private  boolean  utworz_konto(long id, String x) {
-        return false;
-    }
-    public Rejestracja (long id, String haslo){
-        haslo = wprowadz_Haslo();
-        id = stworz_ID();
+    public boolean utworz_konto(long id){
+
+        return true;
     }
 
-    public Rejestracja(){
-        stworz_ID();
-        wprowadz_Haslo();
-    }
+    public Rejestracja(long id){
+            utworz_konto(id);
+        }
 }

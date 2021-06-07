@@ -16,8 +16,20 @@ public class Klient extends Osoba{
     public Klient(long id, String haslo, String imie, String nazwisko, boolean osobaceck, long numerTelefonu, String adresEmail, boolean plec, float wzrost, float waga, float wagaDocelowa, int wiek, float k, String dataZapisu, String dataKoncowa){
 
         super(id, haslo, imie, nazwisko, osobaceck);
-
+        this.adresEmail=adresEmail;
+        this.dataKoncowa=dataKoncowa;
+        this.dataZapisu=dataZapisu;
+        this.k=k;
+        this.numerTelefonu=numerTelefonu;
+        this.plec=plec;
+        this.waga=waga;
+        this.wiek=wiek;
+        this.wzrost=wzrost;
+        this.wagaDocelowa=wagaDocelowa;
     }
+
+    @Override
+    public String test(){ return nazwisko;}
 
 
     private float ObliczBmi(float wzrost, float waga) {
