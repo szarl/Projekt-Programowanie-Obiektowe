@@ -20,7 +20,7 @@ public class Autoryzacja {
         this.haslo = skanuj.nextLine();
         return haslo;
     }
-    private boolean sprawdzStatus(long x, String haslo){
+    public boolean sprawdzStatus(long x, String haslo){
 
         Iterator it = Main.listaOsob.iterator();
         while(it.hasNext()){

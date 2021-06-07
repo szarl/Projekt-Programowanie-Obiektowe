@@ -7,31 +7,41 @@ class Main {
     public static String haslo;
     public static List<Osoba> listaOsob = new ArrayList<>();
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
         System.out.println("-----------Witaj w programie-------------");
         System.out.println("Wybierz co chcesz zrobic: \n 1.Zaloguj \n 2.Zarejestruj \n 3.WYjdz");
         Scanner x = new Scanner(System.in);
-        while(true) {
-        switch (x.nextInt()) {
-            case 1:
-                Autoryzacja logowanie = new Autoryzacja();
-                if(true);
-            {
-                exeTrener();
+        while (true) {
+            switch (x.nextInt()) {
+                case 1:
+                    Autoryzacja logowanie = new Autoryzacja();
+                    if (logowanie.sprawdzStatus(id, haslo))
+                    {
+                        exeTrener();
+                    }
+                    else if (logowanie.sprawdzStatus(id, haslo) == false)
+                    {
+                        exeClient();
+                    }
+                    else
+                    {
+                        System.out.println("Blad programu, sprobuj uruchomic ponownie");
+                        System.exit(0);
+                    }
+                break;
+                case 2:
+                    dodaj();
+                    System.out.println("Wybierz ponownie co chcesz zrobic");
+                    break;
+                case 3:
+                    System.exit(0);
+                    break;
+                default:
+                    System.out.println("Nie ma takie opcji, wybierz ponownie");
             }
-                break;
-            case 2:
-                dodaj();
-                System.out.println("Wybierz ponownie co chcesz zrobic");
-                break;
-            case 3:
-                System.exit(0);
-                break;
-            default:
-                System.out.println("Nie ma takie opcji, wybierz ponownie");
         }
-    }
+
     }
     private static boolean usun_uzytkownika(int a){
 
@@ -44,7 +54,6 @@ class Main {
         System.out.println("2. Stworz konto dla trenera");
         Scanner x = new Scanner(System.in);
         int y = x.nextInt();
-        boolean osobacheck = false;
         if (y == 1) {
 
             System.out.println("Wprowadz  id: ");
@@ -147,8 +156,8 @@ class Main {
         System.out.println("Wybierz co zamierzasz zrobic: \n 1.Przegladaj dane osob pod twoja opieka \n 2. \n 3. \n 4. \n 5. \n 6. \n");
         switch (x.nextInt()){
             case 1:
-                for(Osoba i : listaOsob) {
-                    System.out.println(i);
+                for(int i=0; i<=listaOsob.size();i++) {
+                    System.out.println(listaOsob.get(i));
                 }
                 break;
             case 2:
@@ -172,7 +181,7 @@ class Main {
 
 
     }
-    private void exeClient(){
+    private static void exeClient(){
 
     }
 
