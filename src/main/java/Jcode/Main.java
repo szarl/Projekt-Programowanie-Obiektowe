@@ -176,12 +176,67 @@ class Main {
                 }
                 break;
             case 2:
+                // trzeba wrocic
                 for(Osoba klient : listaOsob) {
                     System.out.println(klient.test());
                }
                 System.out.println("Wybierz numer ktory chcesz edytowac: ");
+                Scanner x = new Scanner(System.in);
+                System.out.println("Wybierz co chcesz edytowac: \n 1.Imie \n 2.Nazwisko \n 3.Numer telefonu  \n 4.Wzrost \n 5.Wage \n 6.Wage docelowa \n 7.Wiek \n 8.Wspolczynnik aktywnosci \n 9.Adres email \n 10.Date zapisu \n 11.Date koncowa \n");
+                switch (x.nextInt()){
+                    case 1:
+                        System.out.println("Podaj nowe imie");
+                        imie = x.nextLine();
+                        break;
+                    case 2:
+                        System.out.println("Podaj nowe nazwisko");
+                        nazwisko = x.nextLine();
 
-                // trzeba wrocic
+                        break;
+                    case 3:
+                        System.out.println("Podaj nowy numer telefonu");
+                        numerTelefonu = x.nextLine();
+
+                        break;
+                    case 4:
+                        System.out.println("Podaj nowy wzrost");
+                        wzrost = x.nextLine();
+
+                        break;
+                    case 5:
+                        System.out.println("Podaj nowa wage");
+                        waga = x.nextLine();
+
+                        break;
+                    case 6:
+                        System.out.println("Podaj nowa wage docelowa");
+                        wagaDocelowa = x.nextLine();
+
+                        break;
+                    case 7:
+                        System.out.println("Podaj nowy wiek");
+                        wiek = x.nextLine();
+
+                        break;
+                    case 8:
+                        System.out.println("Podaj nowy wspolczynnik aktywnosci");
+                        k = x.nextLine();
+
+                        break;
+                    case 9:
+                        System.out.println("Podaj nowy adres email");
+                        adresEmail = x.nextLine();
+
+                        break;
+                    case 10:
+                        System.out.println("Podaj nowa date koncowa");
+                        dataKoncowa = x.nextLine();
+
+                        break;
+
+                    default:
+                        System.out.println("Nie ma takie opcji, wybierz ponownie");
+                }
                 break;
             case 3:
                 katalog.wybierzDodaj();
@@ -216,7 +271,26 @@ class Main {
 
     }
     private static void exeClient(){
+            Scanner x = new Scanner(System.in);
+            System.out.println("Wybierz co zamierzasz zrobic: \n 1.Przegladaj swoje dane \n 2. Oblicz BMI \n 3.Oblicz zapotrzebowanie \n 4.Edytuj dane \n");
+            switch (x.nextInt()){
+                case 1:
 
+                    }
+                    break;
+                case 2:
+
+                    break;
+                case 3:
+
+                    break;
+                case 4:
+                     System.out.println("");
+                    break;
+
+                default:
+                    System.out.println("Nie ma takie opcji, wybierz ponownie");
+            }
     }
 
 }
