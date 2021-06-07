@@ -24,7 +24,6 @@ public class Katalog {
                 System.out.println("Nie ma takie opcji, wybierz ponownie");
         }
     }
-}
     protected void dodajPartia(){
         System.out.println("Podaj nazwe cwiczenia");
         String nazwa = scanner.next();
@@ -63,5 +62,7 @@ public class Katalog {
         Podzialy przepis = new Przepis(nazwa,opis, czas, kategoria, kaloriePosilku);
         listaPodzialow.add(przepis);
     }
-
+    public Katalog() {
+        wybierzDodaj();
+    }
 }
