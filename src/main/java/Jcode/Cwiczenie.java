@@ -2,15 +2,17 @@ package Jcode;
 
 import java.util.Scanner;
 
-public class Cwiczenie {
-    private String nazwa = new String();
-    private String partia = new String();
-    private float kalorie ;
-    private int czas;
-    private String opis = new String();
+public class Cwiczenie extends Podzialy {
+    private float kalorieCwiczen ;
 
-    protected boolean utworz(){
+    public Cwiczenie(String nazwa, String opis, float czas, String kategoria, float kalorieCwiczen){
+        super(nazwa, opis, czas, kategoria);
 
-        return false;
+    }
+
+
+    @Override
+    protected void sprawdz() {
+
     }
 }

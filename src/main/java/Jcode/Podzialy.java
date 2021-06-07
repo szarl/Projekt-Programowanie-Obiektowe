@@ -1,9 +1,17 @@
 package Jcode;
 
 public abstract class Podzialy {
+
+    public Podzialy(String nazwa,String opis ,float czas,  String kategoria){
+        this.nazwa=nazwa;
+        this.opis=opis;
+        this.czas=czas;
+        this.kategoria=kategoria;
+
+    }
     protected String nazwa;
-    protected int czas;
-    protected String pora;
+    protected float czas;
+    protected String kategoria;
     protected String opis;
 
     protected abstract void sprawdz();
