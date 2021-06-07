@@ -6,7 +6,7 @@ public abstract class Podzialy {
         this.nazwa=nazwa;
         this.opis=opis;
         this.czas=czas;
-        this.kategoria=kategoria;
+        this.kategoriaA=kategoria;
 
     }
     protected String nazwa;
