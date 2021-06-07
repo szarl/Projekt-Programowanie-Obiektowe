@@ -153,7 +153,7 @@ class Main {
     }
     private static void exeTrener(){
         Scanner x = new Scanner(System.in);
-        System.out.println("Wybierz co zamierzasz zrobic: \n 1.Przegladaj dane osob pod twoja opieka \n 2. \n 3. \n 4. \n 5. \n 6. \n");
+        System.out.println("Wybierz co zamierzasz zrobic: \n 1.Przegladaj dane osob pod twoja opieka \n 2. \n 3. \n 4. \n 5.Dodaj cwiczenie lub potrawe \n 6. \n");
         switch (x.nextInt()){
             case 1:
                 for(int i=0; i<=listaOsob.size();i++) {
@@ -170,7 +170,7 @@ class Main {
 
                 break;
             case 5:
-
+                Katalog.wybierzDodaj();
                 break;
             case 6:
                 Trener q = new Trener(0,null,null,null,false).wyloguj();
