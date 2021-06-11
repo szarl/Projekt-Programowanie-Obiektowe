@@ -1,1 +1,1 @@
-# Początki bywają trunde
+# Aplikacja dla trenerów personalnych
