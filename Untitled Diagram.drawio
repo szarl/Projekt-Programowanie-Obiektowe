@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-14T15:56:45.875Z" agent="5.0 (Windows)" etag="oBXp6WVahjFIdT_PsN2h" version="14.7.6" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-06-14T15:57:20.326Z" agent="5.0 (Windows)" etag="eIHbbFCiNo3dA_CJtiVC" version="14.7.6" type="github" pages="10">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Klasy">
     <mxGraphModel dx="1489" dy="1921" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -350,7 +350,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ZDn9IwpTUc3yefBl8vtR" name="menu">
-    <mxGraphModel grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" page="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1489" dy="1921" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="zY3u4Qxh9HebdBwixRld-0" />
         <mxCell id="zY3u4Qxh9HebdBwixRld-1" parent="zY3u4Qxh9HebdBwixRld-0" />
@@ -520,7 +520,7 @@
         <mxCell id="AkQ73tVUczsF2eIfDw3q-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="AkQ73tVUczsF2eIfDw3q-1" source="AkQ73tVUczsF2eIfDw3q-4" target="AkQ73tVUczsF2eIfDw3q-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AkQ73tVUczsF2eIfDw3q-4" value="&lt;div&gt;&quot;Wprowadz swoje id:&quot;&lt;/div&gt;&lt;div&gt;Wczytaj this.id&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="AkQ73tVUczsF2eIfDw3q-1" vertex="1">
+        <mxCell id="AkQ73tVUczsF2eIfDw3q-4" value="&lt;div&gt;Print&amp;nbsp; &quot;Wprowadz swoje id:&quot;&lt;/div&gt;&lt;div&gt;Wczytaj this.id&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="AkQ73tVUczsF2eIfDw3q-1" vertex="1">
           <mxGeometry x="65" y="210" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AkQ73tVUczsF2eIfDw3q-8" value="ID" style="ellipse;whiteSpace=wrap;html=1;" parent="AkQ73tVUczsF2eIfDw3q-1" vertex="1">
@@ -535,7 +535,7 @@
         <mxCell id="AkQ73tVUczsF2eIfDw3q-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="AkQ73tVUczsF2eIfDw3q-1" source="AkQ73tVUczsF2eIfDw3q-14" target="AkQ73tVUczsF2eIfDw3q-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AkQ73tVUczsF2eIfDw3q-14" value="&lt;div&gt;&quot;Wprowadz swoje haslo:&quot;&lt;/div&gt;&lt;div&gt;Wczytaj this.haslo&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="AkQ73tVUczsF2eIfDw3q-1" vertex="1">
+        <mxCell id="AkQ73tVUczsF2eIfDw3q-14" value="&lt;div&gt;Print&amp;nbsp; &quot;Wprowadz swoje haslo:&quot;&lt;/div&gt;&lt;div&gt;Wczytaj this.haslo&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="AkQ73tVUczsF2eIfDw3q-1" vertex="1">
           <mxGeometry x="290" y="210" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AkQ73tVUczsF2eIfDw3q-15" value="haslo" style="ellipse;whiteSpace=wrap;html=1;" parent="AkQ73tVUczsF2eIfDw3q-1" vertex="1">
@@ -950,7 +950,7 @@
         </mxCell>
         <mxCell id="eHRykJ4VCq8c58gEHZpW-28" value="5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="eHRykJ4VCq8c58gEHZpW-22" vertex="1" connectable="0">
           <mxGeometry x="0.8872" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint y="-6" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="eHRykJ4VCq8c58gEHZpW-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="eHRykJ4VCq8c58gEHZpW-1" source="eHRykJ4VCq8c58gEHZpW-6" edge="1">
@@ -1076,7 +1076,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eHRykJ4VCq8c58gEHZpW-52" value="&lt;div&gt;Print &quot;Wybierz kogo chcesz usunac: &lt;br&gt;&lt;/div&gt;&lt;div&gt; 1.Trenera wraz z uzytkownikami&lt;/div&gt;&lt;div&gt; 2.Klienta&quot;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="eHRykJ4VCq8c58gEHZpW-1" vertex="1">
-          <mxGeometry x="365" y="440" width="220" height="60" as="geometry" />
+          <mxGeometry x="357.5" y="440" width="235" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qq52ivB6vYH2QUYEVb_f-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="eHRykJ4VCq8c58gEHZpW-1" source="eHRykJ4VCq8c58gEHZpW-56">
           <mxGeometry relative="1" as="geometry">
