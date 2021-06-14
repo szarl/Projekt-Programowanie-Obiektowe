@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-14T16:15:31.131Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36 OPR/76.0.4017.177" etag="Ij3M0M8CTzQxxGlLm_db" version="14.7.7" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-06-14T16:16:47.491Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36 OPR/76.0.4017.177" etag="6vPk4uBoKsidbey8A5XV" version="14.7.7" type="github" pages="10">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Klasy">
     <mxGraphModel dx="1422" dy="2053" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -350,7 +350,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ZDn9IwpTUc3yefBl8vtR" name="menu">
-    <mxGraphModel grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" page="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="2053" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="zY3u4Qxh9HebdBwixRld-0" />
         <mxCell id="zY3u4Qxh9HebdBwixRld-1" parent="zY3u4Qxh9HebdBwixRld-0" />
@@ -516,6 +516,9 @@
         <mxCell id="cfcscI8p8eFDRyDmDegj-6" value="Print &quot;Witaj w programie&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="zY3u4Qxh9HebdBwixRld-1">
           <mxGeometry x="360" y="-60" width="160" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="cFSetV5Y59dAl0TMNCU8-0" value="default" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="zY3u4Qxh9HebdBwixRld-1">
+          <mxGeometry x="485" y="140" width="50" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -612,7 +615,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="hrm7qh_6sXAUHnbRCZY_" name="dodaj">
-    <mxGraphModel grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" page="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="jx4DVusyq4APx5CtGPuQ-0" />
         <mxCell id="jx4DVusyq4APx5CtGPuQ-1" parent="jx4DVusyq4APx5CtGPuQ-0" />
@@ -759,7 +762,7 @@
             <mxPoint x="560" y="1050" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UIV5dQ7w1a5lYfo2YAbA-2" value="Inne" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="cUvtHvtC8B3k39DJhsAE-9" vertex="1" connectable="0">
+        <mxCell id="UIV5dQ7w1a5lYfo2YAbA-2" value="Default" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="cUvtHvtC8B3k39DJhsAE-9" vertex="1" connectable="0">
           <mxGeometry x="0.3579" y="-3" relative="1" as="geometry">
             <mxPoint x="25" y="7" as="offset" />
           </mxGeometry>
@@ -887,7 +890,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="VgnGGlepbxzJZ6YKl8CV" name="exeTrener">
-    <mxGraphModel grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" page="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2249" dy="884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="eHRykJ4VCq8c58gEHZpW-0" />
         <mxCell id="eHRykJ4VCq8c58gEHZpW-1" parent="eHRykJ4VCq8c58gEHZpW-0" />
@@ -1160,7 +1163,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Mm7urDy1h5ZlRN_ObqiY" name="exeKlient">
-    <mxGraphModel grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" page="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0w7wlS8fcKeNtkGjToDF-0" />
         <mxCell id="0w7wlS8fcKeNtkGjToDF-1" parent="0w7wlS8fcKeNtkGjToDF-0" />
@@ -1332,7 +1335,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="njhRZ91zlD3SKaAJhosl" name="dodajPoraDnia">
-    <mxGraphModel grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" page="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="kUIEon6WAptDh0slckPB-0" />
         <mxCell id="kUIEon6WAptDh0slckPB-1" parent="kUIEon6WAptDh0slckPB-0" />
@@ -1499,7 +1502,7 @@
         <mxCell id="spTYa2PBJvyQq6w4Kl-D-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="u_AADiBlziFGotc6Gtfa-1" source="sSeY1B4iQhM3HLu31UK3-0" target="spTYa2PBJvyQq6w4Kl-D-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sSeY1B4iQhM3HLu31UK3-0" value="&quot;Wybierz co chcesz zrobic&amp;nbsp; 1.Dodaj nowe cwiczenie&amp;nbsp; 2.Dodaj nowy przepis &quot;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="u_AADiBlziFGotc6Gtfa-1">
+        <mxCell id="sSeY1B4iQhM3HLu31UK3-0" value="Print &quot;Wybierz co chcesz zrobic&amp;nbsp; 1.Dodaj nowe cwiczenie&amp;nbsp; 2.Dodaj nowy przepis &quot;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="u_AADiBlziFGotc6Gtfa-1">
           <mxGeometry x="336" y="-50" width="170" height="110" as="geometry" />
         </mxCell>
         <mxCell id="9riD53DpHBVjZQy7b7JC-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="u_AADiBlziFGotc6Gtfa-1" source="spTYa2PBJvyQq6w4Kl-D-0" target="o12xd7sBkby_lSjtYRpc-0">
