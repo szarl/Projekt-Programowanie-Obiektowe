@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-14T16:46:29.069Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36 OPR/76.0.4017.177" etag="Y84ViaBgVFXHxMVMMCxA" version="14.7.7" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-06-14T16:47:05.825Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36 OPR/76.0.4017.177" etag="0AWmK4G9EA5tz591m_aB" version="14.7.7" type="github" pages="10">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Klasy">
     <mxGraphModel dx="1038" dy="1717" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -615,7 +615,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="hrm7qh_6sXAUHnbRCZY_" name="dodaj">
-    <mxGraphModel dx="1422" dy="884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="jx4DVusyq4APx5CtGPuQ-0" />
         <mxCell id="jx4DVusyq4APx5CtGPuQ-1" parent="jx4DVusyq4APx5CtGPuQ-0" />
@@ -625,7 +625,7 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jx4DVusyq4APx5CtGPuQ-2" value="public ststic boolean dodaj()" style="ellipse;whiteSpace=wrap;html=1;" parent="jx4DVusyq4APx5CtGPuQ-1" vertex="1">
+        <mxCell id="jx4DVusyq4APx5CtGPuQ-2" value="dodaj()" style="ellipse;whiteSpace=wrap;html=1;" parent="jx4DVusyq4APx5CtGPuQ-1" vertex="1">
           <mxGeometry x="230" y="130" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="jx4DVusyq4APx5CtGPuQ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="jx4DVusyq4APx5CtGPuQ-1" source="jx4DVusyq4APx5CtGPuQ-5" target="jx4DVusyq4APx5CtGPuQ-6" edge="1">
@@ -805,7 +805,7 @@
         <mxCell id="UIV5dQ7w1a5lYfo2YAbA-0" value="Print &quot;Nie ma takiej opcji, wybierz ponownie&quot;" style="ellipse;whiteSpace=wrap;html=1;" parent="jx4DVusyq4APx5CtGPuQ-1" vertex="1">
           <mxGeometry x="640" y="1080" width="120" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="Xz-zo2jsIvfc6CQfhj73-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="jx4DVusyq4APx5CtGPuQ-1" source="UIV5dQ7w1a5lYfo2YAbA-7" target="UIV5dQ7w1a5lYfo2YAbA-8">
+        <mxCell id="Xz-zo2jsIvfc6CQfhj73-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="jx4DVusyq4APx5CtGPuQ-1" source="UIV5dQ7w1a5lYfo2YAbA-7" target="UIV5dQ7w1a5lYfo2YAbA-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UIV5dQ7w1a5lYfo2YAbA-7" value="&lt;div&gt;Print &quot;Podaj wzrost w metrach&quot;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;wzrost=skan.nextFloat()&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="jx4DVusyq4APx5CtGPuQ-1" vertex="1">
@@ -883,7 +883,7 @@
         <mxCell id="UIV5dQ7w1a5lYfo2YAbA-35" value="ListaOsob.add(klient)" style="rounded=0;whiteSpace=wrap;html=1;" parent="jx4DVusyq4APx5CtGPuQ-1" vertex="1">
           <mxGeometry x="478.75" y="2140" width="145" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6opHNXkUHrlMXDwwFnEa-0" value="Koniec" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="jx4DVusyq4APx5CtGPuQ-1">
+        <mxCell id="6opHNXkUHrlMXDwwFnEa-0" value="Koniec" style="ellipse;whiteSpace=wrap;html=1;" parent="jx4DVusyq4APx5CtGPuQ-1" vertex="1">
           <mxGeometry x="200" y="2130" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
