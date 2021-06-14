@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-14T14:54:53.412Z" agent="5.0 (Windows)" etag="vCI5dX3188gL3GTzECFP" version="14.7.6" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-06-14T14:56:08.575Z" agent="5.0 (Windows)" etag="YWUIzpmlePDUPAUgGQSR" version="14.7.6" type="github" pages="10">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Klasy">
     <mxGraphModel dx="1422" dy="1921" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -1253,7 +1253,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="njhRZ91zlD3SKaAJhosl" name="dodajPoraDnia">
-    <mxGraphModel dx="563" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1489" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="kUIEon6WAptDh0slckPB-0" />
         <mxCell id="kUIEon6WAptDh0slckPB-1" parent="kUIEon6WAptDh0slckPB-0" />
@@ -1291,14 +1291,20 @@
         <mxCell id="9XnNRfnzHT36ZMsFa1p--6" value="&lt;div&gt;&quot;Podaj kategorie przepisu (sniadanie, obiad, przekaska, deser, kolacja&quot;&lt;/div&gt;&lt;div&gt;kategoria = scanner.next()&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="kUIEon6WAptDh0slckPB-1">
           <mxGeometry x="322.5" y="410" width="270" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="QKWA9qNGUchXlf48D_VV-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="kUIEon6WAptDh0slckPB-1" source="QKWA9qNGUchXlf48D_VV-0" target="QKWA9qNGUchXlf48D_VV-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="QKWA9qNGUchXlf48D_VV-0" value="listaPodzialow.add(przepis)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="kUIEon6WAptDh0slckPB-1">
           <mxGeometry x="382.5" y="500" width="165" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QKWA9qNGUchXlf48D_VV-4" value="Koniec" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="kUIEon6WAptDh0slckPB-1">
+          <mxGeometry x="405" y="590" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="iZVzpZGfF6IIxqEUBcVd" name="dodajPP">
-    <mxGraphModel grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" page="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1489" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="rhHHeKkiWTPWnatM3qz8-0" />
         <mxCell id="rhHHeKkiWTPWnatM3qz8-1" parent="rhHHeKkiWTPWnatM3qz8-0" />
@@ -1327,7 +1333,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Hp2Fip92nv_QV_bf2qFL" name="wybierzDodaj">
-    <mxGraphModel grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" page="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1489" dy="1921" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="u_AADiBlziFGotc6Gtfa-0" />
         <mxCell id="u_AADiBlziFGotc6Gtfa-1" parent="u_AADiBlziFGotc6Gtfa-0" />
